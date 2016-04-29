@@ -1,0 +1,21 @@
+# Site settings
+title: ziveloper
+header-img: img/home-bg.png
+email: ziv921@yahoo.com
+copyright_name: zivolution921
+description: > # this means to ignore newlines until "baseurl:"
+  Sinatra
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  zivolution921
+learn_profile: zivolution921
+email_username: ziv921@yahoo.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
