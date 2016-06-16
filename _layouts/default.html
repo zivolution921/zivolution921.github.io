@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-{% include head.html %}
+  {% include head.html %}
 
-<body>
+<body class="home-template">
+  <div id="page" class="site">
 
-    {% include nav.html %}
 
-    {{ content }}
+    {% include header.html %}
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
 
     {% include footer.html %}
 
-</body>
+
+            <div class="overlay"></div>
+  </div><!-- #page -->  
+
+
+
+  </body>
 
 </html>
